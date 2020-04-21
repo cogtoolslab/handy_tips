@@ -4,19 +4,19 @@ How to setup to connect to a remote jupyter notebook server on the cogtoolslab n
 
 1. To create a new named tmux session, run:
 
-  tmux new -s NAME_OF_SESSION
+ `tmux new -s NAME_OF_SESSION`
 
-  e.g., tmux new -s 'jupyter'
+  e.g., `tmux new -s 'jupyter'`
 
 2. Fire up jupyter notebook server within this session. After you have installed Anaconda.
 
-  i.e., jupyter notebook 
+  i.e., `jupyter notebook` 
 
   To detach from this tmux session:
-    Hold CTRL + B, then + D 
+    Hold `CTRL + B`, then `+ D` 
 
   Note: To re-attach to this jupyter session, run:
-    tmux attach-session -t jupyter
+    `tmux attach-session -t jupyter`
 
   If this is your first time connecting, make a note of which port it is being served on. It might be something like 8890.  
 
@@ -24,12 +24,12 @@ How to setup to connect to a remote jupyter notebook server on the cogtoolslab n
 
 3. Next, establish SSH tunnel to nightingale from your local machine. To do this, run:
 
-  ssh -fNL 8158:localhost:8890 USER@nightingale.ucsd.edu
+  `ssh -fNL 8158:localhost:8890 USER@nightingale.ucsd.edu`
 
   where "8889" is the remote port that your jupyter notebook server is running on and
   where "8158" is the local port that you want to bind to. This can be anything, actually, 8158 is just an example.
 
-4. Open up local browser and type: localhost://PORT_NUM
+4. Open up local browser and type: `localhost://PORT_NUM`
 
   where PORT_NUM is the port that you bound to in step 3 (e.g., 8158).
 
