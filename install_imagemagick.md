@@ -1,4 +1,4 @@
-@jefan 11/6/2019
+### installing Image Magick
 
 If you find that you need to install ImageMagick (e.g., in order to render svg to png):
 
