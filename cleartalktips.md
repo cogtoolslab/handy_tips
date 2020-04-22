@@ -1,5 +1,5 @@
 
-# Judy's CogSci-oriented supplement to [Kayvon's Clear Talk Tips](https://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf) (which is great!)
+# Judy's CogSci-oriented supplement to [Kayvon's Clear Talk Tips](https://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf)
 
 I suggest first checking out [Kayvon's Clear Talk Tips (KCTT)](https://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf). This document is meant to provide some extra tips that may be especially useful when giving talks to a Cognitive Science (i.e., Psychology, AI, Neuroscience) audience, that aren't explicitly addressed in KCTT. 
 
@@ -9,9 +9,9 @@ Think about your audience. Is this for lab meeting? For an internal seminar? For
 
 ## Preparation
 
-I understand the third point above may be daunting. That is why we prepare. Set aside ample time to prepare your slides, what you plan to say, and how you will answer common questions that arise. Before your FYP and before major conference talks and job talks also plan to schedule one or more practice talks with the lab. Bring a physical notepad to these practice talks so you can jot down notes and questions that people ask while your slides are still up. If possible, also ask a labmate to take notes so you have a backup in case you missed anything. 
+I understand the third point above may be daunting. That is why we prepare. Set aside ample time to prepare your slides, what you plan to say, and how you will answer common questions that arise. Before your FYP, before major conference talks, and before job talks, plan to schedule one or more practice talks with the lab. Bring a physical notepad to these practice talks so you can jot down notes and questions that people ask while your slides are still up. If possible, also ask a labmate to take notes so you have a backup in case you miss anything. Be gracious (vs. defensive) when receiving constructive criticism: the discourse norms in our field are such that the burden is primarily on the speaker to hold the attention of the listener -- if the listener did not understand or follow something you said, that means there is an opportunity to communicate that point more clearly next time!
 
-Full practice talks will typically follow this procedure:
+Full practice talks in the lab will typically follow this procedure:
 1. full run-through
 2. science questions
 3. high-level feedback
