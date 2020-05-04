@@ -1,7 +1,7 @@
 
 # Judy's CogSci-oriented supplement to [Kayvon's Clear Talk Tips](https://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf)
 
-I suggest first checking out [Kayvon's Clear Talk Tips (KCTT)](https://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf). This document is meant to provide some extra tips that may be especially useful when giving talks to a Cognitive Science (i.e., Psychology, AI, Neuroscience) audience, that aren't explicitly addressed in KCTT. 
+I suggest first checking out [Kayvon's Clear Talk Tips (KCTT)](https://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf). This document is meant to provide some extra tips that may be especially useful when giving talks to a Cognitive Science (i.e., Psychology, AI, Neuroscience) audience, that aren't explicitly addressed in KCTT. Blah blah blah blah blah.  
 
 ## Audience
 
@@ -81,8 +81,7 @@ These sections of talks are rarely done well. The point of it is to connect your
 
 - Avoid unnecessary acronyms. If you must use acronyms, explain what they are the first time you use them. Use informative labels that reduce the working memory demands of following your talk, so your audience can focus on asking incisive questions and making useful suggestions. 
 
-
-#### Managing questions
+## Managing questions
 
 This is an advanced talk skill. TODO. 
 
