@@ -14,7 +14,7 @@ Below are useful shortcuts related to "sessions":
 6. 3 things to check:
      -  before first time running ```node store.js```, we need to run ```npm install``` first
      - if you see the gameport number (the number in the public url and can only take values between 8880-8889) is taken, change it by ```emacs app.js``` and ```emacs store.js```
-     -  if you see an error like this:
+     -  if you see an error like the following, change “localhost number” in function "writeDataToMongo" by ```emacs app.js``` and “const Localhost” to a different same number by ```emacs store.js```:
     ```
     Error: listen EADDRINUSE: address already in use :::7000
     at Server.setupListenHandle [as _listen2] (net.js:1279:14)
@@ -29,5 +29,4 @@ Below are useful shortcuts related to "sessions":
 Emitted 'error' event at:
     at emitErrorNT (net.js:1306:8)
     at process._tickCallback (internal/process/next_tick.js:63:19)
-    ```,
-    change “localhost number” in function "writeDataToMongo" by ```emacs app.js``` and “const Localhost” to a different same number by ```emacs store.js```
+    ```
