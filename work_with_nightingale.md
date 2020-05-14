@@ -11,7 +11,7 @@
 3. Close and reopen terminal
 
 #Connect nightingale
-1. Connect to campus VPN
+1. *Connect to campus VPN*
 2. ```ssh NETID@nightingale.ucsd.edu``` and log in with ucsd password
 3. ```conda activate```
 4.```jupyter notebook --port 8889``` (it can be any 4-digit)
