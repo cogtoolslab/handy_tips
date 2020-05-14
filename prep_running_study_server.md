@@ -12,9 +12,9 @@ Below are useful shortcuts related to "sessions":
 4. In one pane, we can type ```node app.js```
 5. In another pane, we can type ```node store.js``` (if for the very first time, running ```npm install``` first)
 6. 3 things to check:
-    a. before first time running ```node store.js```, we need to run ```npm install``` first
-    b. if you see the gameport number (the number in the public url and can only take values between 8880-8889) is taken, change it by ```emacs app.js``` and ```emacs store.js```
-    c. if you see an error like this:
+     -  before first time running ```node store.js```, we need to run ```npm install``` first
+     - if you see the gameport number (the number in the public url and can only take values between 8880-8889) is taken, change it by ```emacs app.js``` and ```emacs store.js```
+     -  if you see an error like this:
     ```
     Error: listen EADDRINUSE: address already in use :::7000
     at Server.setupListenHandle [as _listen2] (net.js:1279:14)
