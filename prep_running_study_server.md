@@ -1,6 +1,6 @@
 ## Preparation for running your study on the cogtoolslab.org server before launching
 
-For additional handy tips on how to run HITs on MTurk, please also see the [wiki](https://github.com/cogtoolslab/mturkrecords/wiki) associated with the (private) mturkrecords repo. 
+For additional handy tips on how to run HITs on MTurk, please also see the [wiki](https://github.com/cogtoolslab/mturkrecords/wiki) associated with the (private) mturkrecords repo.
 
 1. After logging in the lab server via ssh connection, Git clone the the repo if haven't already done;
 2. In side the study folder, there is “app.js” (communicates with client and talks to store.js) “store.js”(talks to MongoDB)
@@ -10,7 +10,7 @@ Below are useful shortcuts related to "sessions":
     ```tmux attach-session -t SESSION_NAME``` (attach session so that we can view it, ```ctrl+B+D``` for detach)
     ```tmux kill-session -t SESSION_NAME``` (remove session)
 3. Then we create a parallel pane so we can look at it:
-    Press 2 keys ```ctrl+B``` then release then ```%``` (left and right view) or ``”``` (up and down view)
+    Press 2 keys ```ctrl+B``` then release then ```%``` (left and right view) or ```”``` (up and down view)
     Press 2 keys ```ctrl+B``` then release then ```X``` to remove pane
 4. In one pane, we can type ```node app.js```
 5. In another pane, we can type ```node store.js``` (if for the very first time, running ```npm install``` first)
