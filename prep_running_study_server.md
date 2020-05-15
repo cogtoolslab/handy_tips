@@ -1,4 +1,4 @@
-Preparation for running study on server before launching
+## Preparation for running your study on the cogtoolslab.org server before launching
 1. After logging in the lab server via ssh connection, Git clone the the repo if haven't already done;
 2. In side the study folder, there is “app.js” (communicates with client and talks to store.js) “store.js”(talks to MongoDB)
 Below are useful shortcuts related to "sessions":
