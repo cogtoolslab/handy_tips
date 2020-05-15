@@ -7,7 +7,7 @@ For additional handy tips on how to run HITs on MTurk, please also see the [wiki
 Below are useful shortcuts related to "sessions":
     ```tmux ls``` (list what sessions we have)
     ```tmux new -s SESSION_NAME``` (create a new session)
-    ```tmux attach-session -t SESSION_NAME``` (attach session so that we can view it, ```ctrl+B+D``` for detach)
+    ```tmux attach-session -t SESSION_NAME``` (attach session so that we can view it, ```ctrl+B```-release-then```D``` for detach)
     ```tmux kill-session -t SESSION_NAME``` (remove session)
 3. Then we create a parallel pane so we can look at it:
     Press 2 keys ```ctrl+B``` then release then ```%``` (left and right view) or ```”``` (up and down view)
