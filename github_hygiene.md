@@ -29,7 +29,18 @@ Here are some basic GitHub hygiene practices we encourage:
 
 2. Before you push, use `git diff` to inspect changes before committing to make sure they are what were intended. To get out of the git diff view, press `q`.
 
-3. Fixing merge conflicts can be a pain. Basically, when you run into a merge conflict, inhale+exhale, then open up the file in question to identify which version of the code to keep and which to discard. You need to do this manually. Any file that still has this motif in it `<<<<<<< HEAD` anywhere at all in the file still has a merge conflict, and won’t execute. Various fancier text editors, e.g., Atom, have ways of easing this process, but you still want to be vigilant to make sure that these fancy editors are parsing the conflicting region properly.
+3. Fixing merge conflicts can be a pain. Basically, when you run into a merge conflict, inhale+exhale, then open up the file in question to identify which version of the code to keep and which to discard. The two different versions in conflict lie in between the `<<<` and the `>>>`. For example:
+
+```
+<<<<<<< HEAD:file.txt
+Hello world
+=======
+Goodbye
+>>>>>>> 77976da35a11db4580b80ae27e8d65caf5208086:file.txt
+```
+Here, the code that is on top with the `HEAD` marker (`Hello world`) is your local copy. The code that is on bottom with the filename and the commit hash (`Goodbye`) is what is "incoming" from the remote copy of the repository (likely pushed by one of your collaborators).
+
+You need to do this manually for each such conflict in each file where such a conflict exists. Any file that still has this motif in it `<<<<<<< HEAD` anywhere at all in the file still has a merge conflict, and won’t execute. Various fancier text editors, e.g., Atom, have ways of easing this process, but you still want to be vigilant to make sure that these fancy editors are parsing the conflicting region properly.
 
 4. Use `git mv` and `git rm` to "rename" files when moving them around, rather than the bare `mv` and `rm`, b/c this will make sure that the git history moves around with these files and they are not removed from the history. 
 
