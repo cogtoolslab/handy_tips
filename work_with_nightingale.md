@@ -10,7 +10,7 @@
 ## Connecting to nightingale
 1. *Connect to campus VPN*
 2. ```ssh NETID@nightingale.ucsd.edu``` and log in with ucsd password
-3. ```conda activate``` 
-4.```jupyter notebook --port 8889``` (it can be any 4-digit)
+3. ```conda activate```
+4. ```jupyter notebook --port 8889``` (it can be any 4-digit)
 5. Open a new command window that's on local but not on nightingale ```ssh -fNL 8889:localhost:8889 NETID@nightingale.ucsd.edu```
 6. Go to "localhost:8889" in your browser and it shall work!
