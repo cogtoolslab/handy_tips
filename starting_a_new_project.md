@@ -22,6 +22,7 @@ intermediate writing goals in meetings with your co-authors. Convenient options 
 1. Create a project repo within the cogtoolslab GitHub organization right away, 
 following the lab's [project template](https://github.com/cogtoolslab/project_template).
 2. Create a new Slack channel in our lab workspace. Enable Slack notifications for commits to the project repo.
-3. Make sure that in one of the early meetings with your co-authors that set clear and concrete immediate goals (1-2 weeks), 
+3. Create a new Google Doc (or Overleaf) where you can post meeting agendas, take notes, and embed graphics.
+4. Make sure that in one of the early meetings with your co-authors that set clear and concrete immediate goals (1-2 weeks), 
 as well as identify a medium-term goal (3-12 months) to orient your efforts towards. Having a plan in hand at both timescales will 
 help you stay motivated and ensure that we stay on track with respect to your longer term goals.
