@@ -13,7 +13,7 @@ Below are useful shortcuts related to "sessions":
     Press 2 keys ```ctrl+B``` then release then ```%``` (left and right view) or ```”``` (up and down view)
     Press 2 keys ```ctrl+B``` then release then ```X``` to remove pane
 4. In one pane, we can type ```node app.js```
-5. In another pane, we can type ```node store.js``` (if for the very first time, running ```npm install``` first)
+5. In another pane (to switch panes, ```ctrl+B``` then release then ```o```), we can type ```node store.js``` (if for the very first time, running ```npm install``` first)
 6. 3 things to check:
      -  before first time running ```node store.js```, we need to run ```npm install``` first
      - if you see the gameport number (the number in the public url and can only take values between 8880-8889) is taken, change it by ```emacs app.js``` and ```emacs store.js```
