@@ -21,7 +21,7 @@ make install
 4. Now install npm from source
 ```
 curl -L -O https://www.npmjs.org/install.sh
-./install
+bash install.sh
 ```
 
 
