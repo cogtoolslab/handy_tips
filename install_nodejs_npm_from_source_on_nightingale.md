@@ -9,9 +9,8 @@ echo 'export PATH=$HOME/local/bin:$PATH' >> ~/.bashrc
 . ~/.bashrc
 mkdir ~/local
 mkdir ~/node-latest-install
-
 ```
-3. Go into your newly created `node-latest-install` folder and install Nodejs from source
+3. Go into your newly created `node-latest-install` folder and install Nodejs from source (this might take a little while).
 ```
 cd ~/node-latest-install
 curl -L -O http://nodejs.org/dist/node-latest.tar.gz
