@@ -1,10 +1,10 @@
 # How to automate credit assignment on SONA
 
+When making a study on SONA, you'll need to enter in your study's url (e.g., https://cogtoolslab.org:8881/index.html). However, this will only add your study to SONA but will not automatically assign credit to your participants after their participation. 
+
 ## First locate your SONA study's experiment_id and credit_token
 
-When making a study on SONA, enter in your study's url (e.g., https://cogtoolslab.org:8881/index.html) 
-
-However, to <b>automate</b> your credit assignment, add the following to the end of your url: ```?sona=1&survey_code=%SURVEY_CODE%``` 
+To <b>automate</b> your credit assignment, add the following to the end of your url: ```?sona=1&survey_code=%SURVEY_CODE%``` 
 (e.g., https://cogtoolslab.org:8881/index.html?sona=1&survey_code=%SURVEY_CODE%)
 
 When you look at your study info, nagivate to the website section where you'll see a button "Sample Link with Embedded ID Code". 
