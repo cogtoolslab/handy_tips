@@ -17,6 +17,6 @@ For example, the url might look like this:
 https://ucsd.sona-systems.com/webstudy_credit.aspx?experiment_id=1957&credit_token=94edbf1cbf524148b93e396bc6194eae&survey_code=XXXX
 ```
 
-Where the experiment_id is: ```1957```
+Where in this case, the experiment_id is: ```1957``` <br>
 And the credit_token is: ```94edbf1cbf524148b93e396bc6194eae```
 
