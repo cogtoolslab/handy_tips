@@ -1,5 +1,7 @@
 # How to automate credit assignment on SONA
 
+## First locate your SONA study's experiment_id and credit_token
+
 When making a study on SONA, enter in your study's url (e.g., https://cogtoolslab.org:8881/index.html) 
 
 However, to <b>automate</b> your credit assignment, add the following to the end of your url: ```?sona=1&survey_code=%SURVEY_CODE%``` 
@@ -20,3 +22,4 @@ https://ucsd.sona-systems.com/webstudy_credit.aspx?experiment_id=1957&credit_tok
 Where in this case, the experiment_id is: ```1957``` <br>
 And the credit_token is: ```94edbf1cbf524148b93e396bc6194eae```
 
+## Then add this info to the redirect link of your web experiment
