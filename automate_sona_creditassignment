@@ -1,0 +1,5 @@
+# How to automate credit assignment on SONA
+
+When making a study on SONA, enter in your study's url (e.g., https://cogtoolslab.org:8881/index.html) 
+
+However, to <i>automate<i> your credit assignment, add the following to the end of your url: `?sona=1&survey_code=%SURVEY_CODE%` (e.g., https://cogtoolslab.org:8881/index.html?sona=1&survey_code=%SURVEY_CODE%)
