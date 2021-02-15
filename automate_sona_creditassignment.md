@@ -24,11 +24,11 @@ And the credit_token is: ```94edbf1cbf524148b93e396bc6194eae```
 
 ## Then add this info to the redirect link of your web experiment
 
-In whichever javascript file you are using, add the following code so that participants are redirected by to SONA after they have finished all trials: <br>
+In whichever javascript file you are using, add the following code so that participants are redirected by to SONA after they have finished all trials: (Note that you'll need to edit the url to match your study's experiment_id and credit_token. 
+) <br>
 ```
 window.open('https://ucsd.sona-systems.com/webstudy_credit.aspx?experiment_id=1957&credit_token=94edbf1cbf524148b93e396bc6194eae&survey_code=' + jsPsych.data.getURLVariable('survey_code'))
 ```
-Note that you'll need to edit the url to match your study's experiment_id and credit_token. 
 
 If you are working with jspsych, here is a sample of code for the "goodbye" page: <br>
 ```
