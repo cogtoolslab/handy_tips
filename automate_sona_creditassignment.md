@@ -30,7 +30,7 @@ In whichever javascript file you are using, add the following code so that parti
 window.open('https://ucsd.sona-systems.com/webstudy_credit.aspx?experiment_id=1957&credit_token=94edbf1cbf524148b93e396bc6194eae&survey_code=' + jsPsych.data.getURLVariable('survey_code'))
 ```
 
-If you are working with jspsych, here is a sample of code for the "goodbye" page: <br>
+If you are working with the instructions plugin of jspsych, here is a sample of code for the "goodbye" page: <br>
 ```
     var goodbye = {
       type: 'instructions',
