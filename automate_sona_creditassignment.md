@@ -2,7 +2,7 @@
 
 When making a study on SONA, enter in your study's url (e.g., https://cogtoolslab.org:8881/index.html) 
 
-However, to <i>automate</i> your credit assignment, add the following to the end of your url: ```?sona=1&survey_code=%SURVEY_CODE%``` 
+However, to <b>automate</b> your credit assignment, add the following to the end of your url: ```?sona=1&survey_code=%SURVEY_CODE%``` 
 (e.g., https://cogtoolslab.org:8881/index.html?sona=1&survey_code=%SURVEY_CODE%)
 
 When you look at your study info, nagivate to the website section where you'll see a button "Sample Link with Embedded ID Code". 
