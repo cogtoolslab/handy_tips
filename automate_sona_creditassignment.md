@@ -47,3 +47,5 @@ If you are working with jspsych, here is a sample of code for the "goodbye" page
       }
     }
 ```
+
+Note that while this will automate credit assignment, this does not automate assigning excused or unexcused no-shows on SONA. 
