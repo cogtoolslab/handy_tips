@@ -1,7 +1,7 @@
 
 # Judy's CogSci-oriented supplement to [Kayvon's Clear Talk Tips](https://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf)
 
-I suggest first checking out [Kayvon's Clear Talk Tips (KCTT)](https://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf). This document is meant to provide some extra tips that may be especially useful when giving talks to a Cognitive Science (i.e., Psychology, AI, Neuroscience) audience, that aren't explicitly addressed in KCTT.
+I suggest first checking out [Kayvon's Clear Talk Tips (KCTT)](https://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf). This document is meant to provide some extra tips that may be especially useful when giving talks to a Cognitive Science (i.e., Psychology, AI, Neuroscience) audience, that aren't explicitly addressed in KCTT. Another nice slide deck on this subject is [Ranjit Jhala's "On Preparing Talks"](https://ranjitjhala.github.io/static/PLMW-talk-opinionated.pdf).
 
 ## Audience
 
