@@ -1,0 +1,8 @@
+Github has turned off password authentification. To set up a private key, see this guide: https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+
+In short: you’ll have to create a new ssh key (`ssh-keygen`), give it to github in the settings and then use the ssh version of the repo to clone it (ie ``git@github.com:neuroailab/curiophysion.git`)
+
+If you get `Permission denied (publickey).`, you have to load your private key after the server/computer was restarted by doing `ssh-add ~/.ssh/github` (or whatever your private key is named). 
+Alternatively, add this in your `~/.ssh/config` file:
+
+```IdentityFile ~/.ssh/github```
