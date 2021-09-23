@@ -11,3 +11,5 @@
 9. Wait for water to pass through (~2 mins).
 10. Remove coffee filter and grounds, empty pre-heated mugs, pour coffee.
 11. Clean up any mess you've made, rinse chemex with hot water.
+
+![image](https://user-images.githubusercontent.com/8151168/134571027-99eed8c2-ff7f-4337-93c9-89c319d734c6.png)
