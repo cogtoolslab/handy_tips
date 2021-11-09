@@ -31,6 +31,7 @@ Here is a table with the exact URL substrings that the query should find, as wel
 | Study-level identifier  | hitId  | STUDY_ID  |
 | Session-level identifier  | assignmentId  | SESSION_ID  |
 | Where to submit*  | turkSubmitTo  | (doesn’t exist)  |
+
 *This one is unique to AMT, and it always refers to the top-level domain, “https://www.mturk.com”
 
 We can harvest these URL parameters via client-side javascript as follows:
