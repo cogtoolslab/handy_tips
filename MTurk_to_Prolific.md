@@ -2,7 +2,7 @@
 This tutorial details how to transfer a working study designed for [Amazon Mechanical Turk](https://www.mturk.com/) (AMT) to [Prolific](https://www.prolific.co/). 
 We assume working knowledge of web programming and a study that is hosted online.
 
-## First, create a new study on Prolific
+## Step 1: Create a new study on Prolific
 After logging in to Prolific, click "[new study](https://app.prolific.co/researcher/studies/new)":
 
 <p align="center" style="font-size: smaller">
@@ -21,7 +21,7 @@ Under "Study Completion" use the option "I'll redirect them using a URL":
 
 Fill in the other sections ("Audience", "Study Cost") as needed. 
 
-## Now, collect Prolific parameters
+## Step 2: Configure your study to collect Prolific parameters
 Both AMT and Prolific fetch a similar set of variables from a URL query, and so collecting Prolific parameters, such as participant-level identifiers, will seem very familiar. 
 
 Here is a table with the exact URL substrings that the query should find, as well as their equivalents on AMT:
@@ -46,12 +46,13 @@ var sessionID   = urlParams.get('SESSION_ID');      // ID unique to the particul
 
 After successfully harvesting the URL parameters, you can then save it to your database as part of the trial information.
 
-## Finally, manage study completion
+## Step 3: Manage study completion
 Upon completion of the study, the participant must be directed to the URL specified under the "Study Completion" section of Prolific. 
-The preferred way is to use a button at the end of the experiment, which, when clicked, redirects the participant to the completion URL:
+The preferred way is to use a button at the end of the experiment, which, when clicked, redirects the participant to the completion URL. A line of code that does this is:
 ```
 window.open("https://app.prolific.co/submissions/complete?cc=XXXXXXX","_self")
 ```
+In the above line, the 'XXXXXXX' within the completion URL will be an alpha-numeric string that functions as the Completion Code for Prolific workers. You will have to manually copy this URL from Prolific's interface, and paste it into this line of your experiment code.
 
 All that's left is to publish the study! After successful completion of the study, the participant's prolificID will automatically appear on the Prolific website in the 
 "Active" tab, under the specified study name:
@@ -62,7 +63,7 @@ All that's left is to publish the study! After successful completion of the stud
   <img width="85%" src="https://github.com/cogtoolslab/handy_tips/blob/master/images/prolific_active_study_2.png"></img><br/>
 </p>
 
-## Prolific bonus payments
+## Step 4 (optional): Prolific bonus payments
 Bonusing on Prolific will require you to access the bonus scores as recorded in your databse (from the participant data stored during the experiments), to create
 a csv file mapping the Prolific PROLIFIC_PID to the relevant bonus. That csv is then uploaded manually onto Prolific’s user interface to bulk-bonus participants with their
 respective bonus money. This task has not yet been automated, but once it is, an explanation and sample code will be uploaded to this article.
