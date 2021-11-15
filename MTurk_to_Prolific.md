@@ -1,6 +1,6 @@
 # Transferring from Amazon Mechanical Turk to Prolific
-This tutorial details how to transfer a working study designed for [Amazon Mechanical Turk](https://www.mturk.com/) (AMT) to [Prolific](https://www.prolific.co/). 
-We assume working knowledge of web programming and a study that is hosted online.
+This tutorial details how to take an online experiment that you have previously used [Amazon Mechanical Turk](https://www.mturk.com/) (AMT) to recruit participants and switch over to using [Prolific](https://www.prolific.co/) for participant recruitment instead.
+
 
 ## Step 1: Create a new study on Prolific
 After logging in to Prolific, click "[new study](https://app.prolific.co/researcher/studies/new)":
