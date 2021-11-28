@@ -1,7 +1,17 @@
-## Preparation for running your study on the cogtoolslab.org server before launching
+## Preparation for running your behavioral experiment on the `cogtoolslab.org` server
 
-For additional handy tips on how to run HITs on MTurk, please also see the [wiki](https://github.com/cogtoolslab/mturkrecords/wiki) associated with the (private) mturkrecords repo.
 
+### Getting set up on the server
+
+The `cogtoolslab.org` server is a very simple Linux virtual machine. Its reason for being is to host web-based behavioral experiments. If you do not yet have an account on `cogtoolslab.org` and need one, please reach out to Judy and/or the lab manager. 
+
+Once you have an account, it is recommended that you join the `#computing_resources` and `#running_experiments` Slack channel so you can be aware of any outages/issues or post issues re: the server.
+
+By the way, there are 50 ports that the server is able to listen to https requests over: 8850-8899, so if you set up the app to listen over a port number outside that range, it won't work.
+
+We use a lab-wide shared mongodb instance running on the same server. Please "cc:" Judy on any Slack/email requests for the credentials for authenticating to our database. This mongodb is used in basically two ways: (1) to store stimulus metadata that can be fetched when participants take part in our experiments; (2) to write behavioral data to in real time during experiments, which is then fetched for subsequent analyses. 
+
+### Procedure
 1. After logging in the lab server via ssh connection, Git clone the the repo if haven't already done;
 2. In side the study folder, there is “app.js” (communicates with client and talks to store.js) “store.js”(talks to MongoDB)
 Below are useful shortcuts related to "sessions":
@@ -33,3 +43,7 @@ Below are useful shortcuts related to "sessions":
     at emitErrorNT (net.js:1306:8)
     at process._tickCallback (internal/process/next_tick.js:63:19)
     ```
+
+### Related Resources
+* For handy tips on how to run HITs on MTurk, please also see the [wiki](https://github.com/cogtoolslab/mturkrecords/wiki) associated with the (private) mturkrecords repo. 
+* For handy tips on how to migrate your experiment from MTurk to Prolific, see this documentation: https://github.com/cogtoolslab/handy_tips/blob/master/MTurk_to_Prolific.md
