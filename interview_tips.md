@@ -37,6 +37,20 @@
 * prepare a project pitch for a potential project
 * have prepared a 3 sentence summary of your research interests
 
+## Industry interviews
+* unlike research-specific roles, these may focus more on analytic skillsets since you're more likely to be working with real company data for an applied project
+* See if the company/team has a blog; companies like Microsoft experimentation, Stitchfix, Apple, etc. often publish about their methods and recent projects.   
+    * If the team doens't have a blog, check out other companies where they do, or even better, look up team members on LinkedIn and check their past companies/roles for content
+* interviews will likely consist of 3 main parts: technical/content screen, coding, and behavioral (sometimes with more/less rounds)
+
+### How to prepare?
+* if you know who will be interviewing you, read their papers and find overlap with your work/interests -- even in industry, a lot of managers and senior members have past research experience
+    * unlike research, you're unlikely to have to discuss the work directly, but mentioning their topics in passing is a great way to score points
+* Master one language for analysis (either R or Python) -- don't fret about learning both, very few teams will test coding in more than one language
+* Learn SQL, it's ubiquitous in industry and very easy to pick up
+    * check out [stratascratch](https://stratascratch.com) even the free version has updated sql questions from major companies
+* For datascience/analytics roles, focusing on dataframes (aggregation, filtering, etc.), string manipulation (reverse a string, find matches, etc.), loops and functions, and core libararies can be more important than classical leetcode style software engineering problems
+
 ## How to get an interview?
 Most interviews come through interactions with researchers in the company/institution who give you a referra (ie. give your name to the HR department, telling them to invite you for an interview), not through applying through the normal channels (you might need to apply anyway, but it's not sufficient by itself).
 Don't spend a lot of time trawling job boards—networking is the most important part of the process.
