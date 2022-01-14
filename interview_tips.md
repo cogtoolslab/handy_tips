@@ -48,7 +48,7 @@
     * unlike research, you're unlikely to have to discuss the work directly, but mentioning their topics in passing is a great way to score points
 * Master one language for analysis (either R or Python) -- don't fret about learning both, very few teams will test coding in more than one language
 * Learn SQL, it's ubiquitous in industry and very easy to pick up
-    * check out [stratascratch](https://stratascratch.com) even the free version has updated sql questions from major companies
+    * check out [stratascratch](https://stratascratch.com) -- even the free version has updated sql questions from major companies
 * For datascience/analytics roles, focusing on dataframes (aggregation, filtering, etc.), string manipulation (reverse a string, find matches, etc.), loops and functions, and core libararies can be more important than classical leetcode style software engineering problems
 
 ## How to get an interview?
