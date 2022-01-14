@@ -42,7 +42,7 @@
 * See if the company/team has a blog; companies like [Microsoft experimentation](https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/) , [Stitchfix](https://multithreaded.stitchfix.com/blog/), Apple, etc. often publish about their methods and recent projects.   
     * If the team doens't have a blog, check out other companies where they do, or even better, look up team members on LinkedIn and check their past companies/roles for content
 * interviews will likely consist of 3 main parts: technical/content screen, coding, and behavioral (sometimes with more/less rounds)
-    * Following an application, there is sometimes a first screen with HR which is not technical and jsut about the role, then you may get a take-home coding/data challenge or start with a technical screen
+    * Following an application, there is sometimes a first screen with HR which is not technical and just about the role and gauging interest, then you may get a take-home coding/data challenge or start with a technical screen
     * Coding tests are *rarely* technically difficult
 
 ### How to prepare?
