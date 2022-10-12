@@ -14,3 +14,5 @@
 4. ```jupyter notebook --port 8889``` (it can be any 4-digit)
 5. Open a new command window that's on local but not on nightingale ```ssh -fNL 8889:localhost:8889 NETID@nightingale.ucsd.edu```
 6. Go to "localhost:8889" in your browser and it shall work!
+
+The process is the exact same for tversky.ucsd.edu
