@@ -1,6 +1,8 @@
 
 ## setting up your AWS credentials
-**Author: Will McCarthy**
+**Author: Will McCarthy (March 2022)**
+
+I’ve sent around emails with instructions about how to set up AWS credentials to the point person for each ‘major project’, who should forward this email to all collaborators within that project/ related project.
 
 If you haven’t used AWS before there is one step that may be new to you, which is setting up a file on your local machine that stores your login credentials. This allows you to do things like upload stimuli to S3. I suggest doing this now, as it’s likely you’ll use S3 in the future.
 To do this you need to make a directory in your home directory ~/.aws/  (yes, with a .). Then make a file within that directory called credentials (yes, no file extension- just credentials). If you have a single aws account, the contents of this should be as outlined in the email:
