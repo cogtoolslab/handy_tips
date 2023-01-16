@@ -3,6 +3,8 @@ Author: Judy Fan; Last updated: Jan 13 2022
 
 This worksheet is intended to guide individual thinking about authorship order for specific papers, especially for frontline researchers working in larger teams. It is a working, living document and is not meant to be the final word on how to think about this complex issue. However, I do believe it can serve a useful purpose in helping to have healthy and systematic conversations about authorship order (under the unfortunate constraint that co-authorship is still, somewhat anachronistically, generally encoded using list-like data structures).
 
+**This worksheet has been superseded by the practice of logging contributions continually throughout the lifetime of a project in the `contributions.md` file housed within each project repo. Here is a [link to the template](https://github.com/cogtoolslab/project_template/blob/master/admin/contributions.md).**
+
 ## General principles (unordered)
 1. Originating the idea
 2. Carrying out the idea (i.e., consistent contributions sustained over time; counterfactually consequential to implementation)
