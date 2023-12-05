@@ -8,6 +8,8 @@ The `cogtoolslab.org` server is a very simple Linux virtual machine. Its reason 
 Once you have an account, it is recommended that you join the `#computing_resources` and `#running_experiments` Slack channel so you can be aware of any outages/issues or post issues re: the server.
 
 By the way, there are 50 ports that the server is able to listen to https requests over: 8850-8899, so if you set up the app to listen over a port number outside that range, it won't work.
+You can check which ports are currently open by running `$ check_ports.sh` anywhere on the lab server.
+You should also check which ports others are trying to use in the "ports" tab of the lab info doc, and reserve your own!
 
 We use a lab-wide shared mongodb instance running on the same server. Please "cc:" Judy on any Slack/email requests for the credentials for authenticating to our database. This mongodb is used in basically two ways: (1) to store stimulus metadata that can be fetched when participants take part in our experiments; (2) to write behavioral data to in real time during experiments, which is then fetched for subsequent analyses. 
 
@@ -43,6 +45,7 @@ Below are useful shortcuts related to "sessions":
     at emitErrorNT (net.js:1306:8)
     at process._tickCallback (internal/process/next_tick.js:63:19)
     ```
+7. You can now visit your study at the url: `https://cogtoolslab.org:PORT/FILE.html` where `PORT` is the gameport specified in/to `app.js`, and `FILE` is a path to a file relative to the directory where `app.js` was _run from_. Note `https`! 
 
 ### Related Resources
 * For handy tips on how to run HITs on MTurk, please also see the [wiki](https://github.com/cogtoolslab/mturkrecords/wiki) associated with the (private) mturkrecords repo. 
