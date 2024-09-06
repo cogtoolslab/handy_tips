@@ -1,6 +1,10 @@
 ## Preparation for running your behavioral experiment on the `cogtoolslab.org` server
 
 
+### Placing your stimuli on server database
+will be explianed [in this file](./stims_mongo_setup.md).
+
+
 ### Getting set up on the server
 
 The `cogtoolslab.org` server is a very simple Linux virtual machine. Its reason for being is to host web-based behavioral experiments. If you do not yet have an account on `cogtoolslab.org` and need one, please reach out to Judy and/or the lab manager. 
